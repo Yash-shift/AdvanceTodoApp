@@ -25,11 +25,11 @@ const TaskInput = () => {
         value={task} 
         onChange={(e) => setTask(e.target.value)} 
         placeholder="Add a new task" 
-        className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+        className="flex-1 px-4 py-2 border text-bold border-gray-400 hover:border bg-green-50 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
       />
       <button 
         onClick={handleAddTask}
-        className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+        className="px-6 py-2 bg-green-100 text-green-400 rounded-lg hover:bg-white hover:text-gray-600  transition-colors"
       >
         Add Task
       </button>
