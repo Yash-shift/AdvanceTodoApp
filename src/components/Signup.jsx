@@ -35,7 +35,7 @@ const Signup = () => {
     try {
       await dispatch(signupUser(formData));
       alert('Signup successful! Please login.');
-      navigate('/login');
+      navigate('/dasboard');
     } catch (err) {
       setError(err.message || 'Signup failed');
     } finally {
